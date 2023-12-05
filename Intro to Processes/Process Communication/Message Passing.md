@@ -1,6 +1,5 @@
 ---
 tags:
-  - Process-Management
   - Process-Communication
 ---
 # Message Passing

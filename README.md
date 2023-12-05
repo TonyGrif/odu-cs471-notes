@@ -1,5 +1,5 @@
 # Operating Systems
-This [Obsidian](https://obsidian.md/) vault contains notes taken during ODU's CS 417, Operating Systems, class.
+This [Obsidian](https://obsidian.md/) vault contains notes taken during ODU's CS 471, Operating Systems, class.
 
 ## Teacher(s)
 * Professor Arif (Instructor)

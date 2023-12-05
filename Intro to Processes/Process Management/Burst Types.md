@@ -1,5 +1,6 @@
 ---
 tags:
+  - Processes
   - Process-Management
 ---
 # Burst Types

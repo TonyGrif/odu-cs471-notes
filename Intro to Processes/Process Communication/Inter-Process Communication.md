@@ -1,6 +1,6 @@
 ---
 tags:
-  - Process-Management
+  - Processes
   - Process-Communication
 ---
 # Inter-Process Communication
