@@ -1,6 +1,5 @@
 ---
 tags:
-  - Processes
   - Process-Communication
 ---
 # Client-Server Communication

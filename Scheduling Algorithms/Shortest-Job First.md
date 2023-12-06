@@ -1,6 +1,5 @@
 ---
 tags:
-  - Processes
   - Process-Scheduling
 ---
 # Shortest-Job First
