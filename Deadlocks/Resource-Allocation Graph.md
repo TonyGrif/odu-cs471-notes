@@ -17,3 +17,7 @@ These are the allocation and request links.
 * If a graph contains a cycle:
     * If each resource involved only has one instance, there **is** a deadlock.
     * If several instances of a resource involved exists, there **may** be a deadlock.
+## Resource Allocation Graph Scheme
+Slight expansion of the resource allocation graph for deadlock avoidance. Adds in a:
+* Claim Edge: $P_i->R_j$, $p_i$ may request $r_j$ sometime in the future, represented by a dashed line
+This is not applicable for resources with multiple instances (refer to [[Banker's Algorithm]]).
