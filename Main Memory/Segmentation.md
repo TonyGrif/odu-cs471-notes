@@ -1,3 +1,7 @@
+---
+tags:
+  - Main-Memory
+---
 # Segmentation
 [[Main Memory Overview | Memory]] management scheme that supports user view of memory. 
 ## Architecture

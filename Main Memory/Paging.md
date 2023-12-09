@@ -1,0 +1,4 @@
+# Paging
+Paging is a solution for [[Contiguous Memory Allocation#External Fragmentation | external fragmentation]]. Blocks of the same, fixed size (called pages) are created as a block in [[Logical Address Space | logical address space]]. Frames are referred to as a block in [[Physical Address Space | physical address space]]. One page is allocated to one frame; thus, there is no contiguous requirement. This does cause [[Contiguous Memory Allocation#Internal Fragmentation | internal fragmentation]].
+## Address Translation Scheme
+A logical address is represented as a tuple <page number, offset>. The page number is an index to the page table and the offset is combined with the base address to define the physical memory address.

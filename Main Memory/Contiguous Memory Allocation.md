@@ -20,6 +20,6 @@ The total memory exists for a request, but it is not contiguous.
 #### Solutions
 1. Compaction: moving all allocated memory blocks into a single unit by combining all free memory holes
 2. Garbage Collection: collects all inaccessible memory and returns them as free
-3. Paging: break up physical memory into fixed size blocks and filling them by logical memory of the same size
+3. [[Paging]]
 ### Internal Fragmentation
 The amount of memory allocated to a process is greater than requested.
