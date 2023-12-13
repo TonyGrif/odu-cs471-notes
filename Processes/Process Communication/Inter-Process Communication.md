@@ -1,6 +1,6 @@
 ---
 tags:
-  - Process-Communication
+  - Process
 ---
 # Inter-Process Communication
 [[Process Overview | Processes]] can be either independent or cooperating. Processes that cooperate are able to affect and be affected by other processes. These process can communicate either through [[Message Passing | message passing]] or [[Shared Memory | shared memory]]. 
