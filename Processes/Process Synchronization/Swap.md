@@ -1,9 +1,9 @@
 ---
 tags:
-  - Process-Synchronization
+  - Process
 ---
 # Swap
-This is one solution to the [[Producer-Consumer | producer-consumer problem]] utilizing special hardware solution. This must be executed atomically. This cannot guarantee bounded waiting.
+This is one solution to the [[Producer-Consumer | producer-consumer problem]] utilizing special hardware solution. This function must be executed atomically. This cannot guarantee [[Producer-Consumer#Critical Section | bounded waiting]].
 ## Pseudocode
 ```
 void swap(boolean *a, boolean *b) {

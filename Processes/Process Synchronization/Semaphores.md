@@ -1,6 +1,6 @@
 ---
 tags:
-  - Process-Synchronization
+  - Process
 ---
 # Semaphores
 These are one of the higher-level constructs to solve the [[Producer-Consumer | producer-consumer]] problem. A semaphore is an integer variable that can be accessed only through atomic `wait` and `signal` instructions.

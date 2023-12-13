@@ -1,9 +1,9 @@
 ---
 tags:
-  - Process-Synchronization
+  - Process
 ---
 # Test and Set
-This is one solution to the [[Producer-Consumer | producer-consumer problem]] utilizing special hardware solution. This execution is run atomically. This method cannot guarantee bounded waiting.
+This is one solution to the [[Producer-Consumer | producer-consumer problem]] utilizing special hardware solution. This function is run atomically. This method cannot guarantee [[Producer-Consumer#Critical Section | bounded waiting]].
 ## Pseudocode
 ```
 boolean test_and_set(boolean *target) {

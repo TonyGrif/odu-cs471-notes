@@ -14,3 +14,6 @@ A process represents a unit of resource allocation, in that it is a program in e
 * [[Client-Server Communication]]
 ## Threads
 * [[Threads]]
+## Process Synchronization
+* [[Producer-Consumer]]
+* [[Peterson's Solution]]
