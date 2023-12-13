@@ -17,3 +17,10 @@ $\def\mp{DoM}$ $\def\rq{Ready Queue Size}$ $\def\e{Executing}$ $\def\io{IO Queue
 - Medium-Term: Remove process from ready queue onto disk and release its memory; the goal is to maintain a good mix of processes with different [[Burst Types| burst]] types
 ## Context-Switch
 This occurs whenever a [[States#^318c82 | running]] process is interrupted and swapped out for another process. The swapped out process must have a [[Process Control Block | PCB]] created for swapping back in. Both the swap-in and swap-out consume the CPU's time and lead to overhead. 
+## Algorithms
+There are a number of algorithms available for CPU scheduling. They are chosen based on how they handle certain [[Calculations | metrics]].
+* [[First-Come First-Served]]
+* [[Shortest-Job First]]
+* [[Priority]]
+* [[Round Robin]]
+* [[Multilevel Queue]]
