@@ -17,3 +17,5 @@ A process represents a unit of resource allocation, in that it is a program in e
 ## Process Synchronization
 * [[Producer-Consumer]]
 * [[Peterson's Solution]]
+## Deadlocks
+* [[Deadlock Overview]]
