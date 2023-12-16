@@ -3,16 +3,16 @@ tags:
   - Main-Memory
 ---
 # Contiguous Memory Allocation
-[[Main Memory Overview | Memory]] is allocated contiguously and the only information needed is the starting address or the base address & its size.
+[[Memory Overview| Memory]] is allocated contiguously and the only information needed is the starting address or the base address & its size. A relocation register is provided to alter these bounds.
 ## Partitioning
 Resident operating system is usually held in low memory with an interrupt vector. User processes are held in high memory.
 ### Multiple Partition
-This strategy utilizes partitions where one process is exclusive to. These can be fixed-size or variable. This method leads to a great deal of holes.
+This strategy utilizes partitions where one process is exclusive to that partition. These can be fixed-size or variable, but both lead to a great deal of [[#Fragmentation | holes]].
 #### Dynamic Storage Allocation
 Utilizing variable-size partitions, there exist methods to determine which free partition to allocate to:
-1. First-fit: first hole big enough starting from top of memory
-2. Best-fit: the smallest hole that is big enough
-3. Worst-fit: the largest hole that is big enough
+1. First-fit: first hole big enough starting from top of memory.
+2. Best-fit: the smallest hole that is big enough.
+3. Worst-fit: the largest hole that is big enough.
 ## Fragmentation
 A phenomenon where storage space is used inefficiently though wasted space.
 ### External Fragmentation

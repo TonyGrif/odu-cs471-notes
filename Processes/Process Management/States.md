@@ -7,7 +7,7 @@ A [[Process Overview| process]] can enter a variety of 'states' during its lifet
 
 ## List of States
 - New: A new process at the start of its life.
-- Ready: A process allocated [[Main Memory Overview| memory]], allowed to enter the system, and ready to execute.  ^73c3f8
+- Ready: A process allocated [[Memory Overview| memory]], allowed to enter the system, and ready to execute.  ^73c3f8
 - Running: A process during execution. ^318c82
 - Waiting: A process waiting for the completion of an I/O or other [[Burst Types | event]]. ^80606b
 - [[Fork & Termination#Process Termination | Terminated]]: Process disappearing from the system.
