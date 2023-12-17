@@ -2,7 +2,6 @@
 tags:
   - Process
 ---
-TODO: link to Network File System, move to Process Communication
 # Client-Server Communication
 In client-server systems, clients send requests to the server and the server typically sends back a reply. These systems must utilize [[Message Passing | message passing]] to handle [[Inter-Process Communication | inter-process communication]]. 
 ## Strategies
@@ -10,7 +9,7 @@ There are a number of strategies to implement this communication, each with thei
 ### Sockets
 A socket is an endpoint for communication defined by the concatenation of an IP address and a port number.
 ### Remote Procedure Calls
-Procedure calls are similar to calling on the local machine, except the procedure is on a remote machine. This requires the use of stubs on either end of the connection. A common example of this is a networked file system.
+Procedure calls are similar to calling on the local machine, except the procedure is on a remote machine. This requires the use of stubs on either end of the connection. A common example of this is a [[Storage Access#Network-Attached | networked file system]].
 #### Steps
 1. Local process calls on the stub.
 2. RPC system marshals the parameters to the procedure call and transmits to the remote system.

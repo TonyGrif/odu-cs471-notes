@@ -1,5 +1,9 @@
+---
+tags:
+  - Mass-Storage
+---
 # Storage Access
-Computer can access disk storage through either I/O ports or through network-attached storage.
+Computer can access [[Storage Overview | disk storage]] through either I/O ports or through network-attached storage.
 ## Host-Attached
 This method is accessed through I/O ports through either IDE, ATA, or SATA technologies.
 ## Network-Attached

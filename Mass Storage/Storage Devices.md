@@ -1,5 +1,9 @@
+---
+tags:
+  - Mass-Storage
+---
 # Magnetic Disks
-Magnetic disks contain multiple disk platters that store information by recording it magnetically. A read-write head moves above each platter for data access. Each platter is logically divided into circular tracks that are subdivided into sectors.
+Magnetic disks are used for computer [[Storage Access | storage]]. They contain multiple disk platters that store information by recording it magnetically. A read-write head moves above each platter for data access. Each platter is logically divided into circular tracks that are subdivided into sectors.
 ## Random-Access Time
 This is the time to move the disk head to the correct position and is determined by:
 1. Seek Time: time to move disk arm to cylinder
@@ -17,4 +21,4 @@ Similar to [[#SCAN | SCAN]], this algorithms starts at one end and goes to the o
 ### LOOK
 This method is similar to [[#SCAN | SCAN]]; however, it does not move the full width of the disk. Instead, the arm only goes as far as the furthest request in either direction.
 # Solid State Disk
-An SSD is a nonvolatile storage device. They have the same characteristics of [[#Magnetic Disks | magnetic disks]] but are more reliable and faster.
+An SSD is a nonvolatile [[Storage Devices | storage device]]. They have the same characteristics of [[#Magnetic Disks | magnetic disks]] but are more reliable and faster.

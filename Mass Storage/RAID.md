@@ -1,3 +1,7 @@
+---
+tags:
+  - Mass-Storage
+---
 # RAID
 RAID seeks to offer improvements in reliability through redundancy. This ensure that if one disk fails, there is a way to get the data back and none is lost.
 ## Level 1
