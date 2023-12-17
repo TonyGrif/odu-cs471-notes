@@ -1,6 +1,6 @@
 ---
 tags:
-  - Mass-Storage
+  - Storage
 ---
 # Storage Access
 Computer can access [[Storage Overview | disk storage]] through either I/O ports or through network-attached storage.

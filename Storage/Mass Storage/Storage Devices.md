@@ -1,6 +1,6 @@
 ---
 tags:
-  - Mass-Storage
+  - Storage
 ---
 # Magnetic Disks
 Magnetic disks are used for computer [[Storage Access | storage]]. They contain multiple disk platters that store information by recording it magnetically. A read-write head moves above each platter for data access. Each platter is logically divided into circular tracks that are subdivided into sectors.

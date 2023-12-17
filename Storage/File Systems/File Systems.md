@@ -1,5 +1,9 @@
+---
+tags:
+  - Storage
+---
 # File Systems
-File systems provided efficient and convenient access to the disk by allowing data to be stored, located, and retrieved easily.
+File systems provided efficient and convenient access to the [[Storage Overview | disk]] by allowing data to be stored, located, and retrieved easily.
 ## Implementation
 A file system may contain info about how to boot a system stored there, the total number of blocks, the number & location of free blocks, and the [[Directories | directory]] structure and [[Files | individual files]].
 ## [[Directories | Directory]] Allocation

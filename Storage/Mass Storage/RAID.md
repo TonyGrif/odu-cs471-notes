@@ -1,9 +1,9 @@
 ---
 tags:
-  - Mass-Storage
+  - Storage
 ---
 # RAID
-RAID seeks to offer improvements in reliability through redundancy. This ensure that if one disk fails, there is a way to get the data back and none is lost.
+RAID seeks to offer improvements in reliability through redundancy. This ensure that if one [[Storage Overview | disk]] fails, there is a way to get the data back and none is lost.
 ## Level 1
 Each disk contains an identical image on another disk.
 ## Level 2

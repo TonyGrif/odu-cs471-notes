@@ -1,3 +1,7 @@
+---
+tags:
+  - Storage
+---
 # Directories
 Directories are symbol tables that translate [[Files | file]] names into directory entries.
 ## Single-Level
