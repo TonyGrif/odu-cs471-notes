@@ -2,12 +2,10 @@
 tags:
   - Process
 ---
-TODO: link to distributed system, move to Process Communication
 # Message Passing
-[[Process Overview | Processes]] exchange messages to cooperate. System calls and OS support are required for every message transfer. This is a slower, but simpler method in comparison to [[Shared Memory | shared memory]]. This is method also works well across multiple computers.
+[[Process Overview | Processes]] exchange messages to cooperate. System calls and OS support are required for every message transfer. This is a slower, but simpler method in comparison to [[Shared Memory | shared memory]]. This is method also works well across [[Distributed Systems | multiple computers]].
 
 This is the preferred method when amount/frequency of data transfer is small or multiple computer are involved. 
-
 ## Types of Communications
 Message passing can be implemented in a number of different ways, each with pros and cons.
 ### Direct vs. Indirect
@@ -25,7 +23,7 @@ Both of these can be applied to either the sender or to the receiver (or to both
 - Blocking Receive: receiver is blocked until a message is available.
 - Non-Blocking Receive: receiver retrieves either a valid or null message.
 ### Automatic vs. Explicit Buffering
-These are set for when buffering is required for inter-process communication. 
+These are set for when buffering is required for [[Inter-Process Communication | inter-process communication]]. 
 - Zero Capacity: messages cannot be stored in queue.
 - Bounded Capacity: predetermined finite capacity in the queue; senders must block if queue if full.
 - Unbounded Capacity: the queue does not have predefined capacity; senders are never required to block.
